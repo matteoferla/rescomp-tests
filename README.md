@@ -1,6 +1,6 @@
 # rescomp-tests
 
-> This is just a storage dumpyard
+> This is just a storage dumpyard and an internal thing.
 
 Various tests done in Rescomp.
 Rescomp runs Univa Grid Engine (UGE) as its batch-queuing system.
@@ -18,8 +18,12 @@ print('Hello world')
 ```
 
 It does not pack the contents of globals, so is pretty limited.
-Dask offers better options.
 
+## Note on Dask
+
+I never got Dask to work,
+but Collin has but he could only submit to a single node without shared memory,
+making it very limited.
 
 ## Functions
 
